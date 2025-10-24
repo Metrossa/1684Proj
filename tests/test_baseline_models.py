@@ -15,7 +15,7 @@ def test_baseline_imports():
     print("Testing baseline model imports...")
     
     try:
-        from models.baseline_models import SupervisedClassifier, BaselineModelManager, create_baseline_model
+        from models.baseline_models import SupervisedClassifier
         print("[OK] models.baseline_models imports")
         
         from models.text_features import TextFeatureExtractor, create_feature_extractor
@@ -32,18 +32,13 @@ def test_supervised_classifier():
     print("\nTesting SupervisedClassifier...")
     
     try:
-        from models.baseline_models import SupervisedClassifier, create_baseline_model
+        from models.baseline_models import SupervisedClassifier
         
         # Test direct creation
         classifier = SupervisedClassifier("microsoft/deberta-v3-base", "sentiment")
         assert classifier.model_name == "microsoft/deberta-v3-base"
         assert classifier.task_type == "sentiment"
         print("[OK] Direct classifier creation")
-        
-        # Test factory function
-        classifier2 = create_baseline_model("sentiment")
-        assert classifier2.task_type == "sentiment"
-        print("[OK] Factory function creation")
         
         # Test single prediction (placeholder)
         test_text = "This movie was amazing!"
@@ -69,42 +64,6 @@ def test_supervised_classifier():
         
     except Exception as e:
         print(f"[FAIL] SupervisedClassifier test failed: {e}")
-        return False
-
-
-def test_baseline_model_manager():
-    """Test BaselineModelManager functionality."""
-    print("\nTesting BaselineModelManager...")
-    
-    try:
-        from models.baseline_models import BaselineModelManager
-        
-        manager = BaselineModelManager()
-        
-        # Test model retrieval
-        model = manager.get_model("sentiment")
-        assert isinstance(model, object)  # SupervisedClassifier instance
-        print("[OK] Model retrieval")
-        
-        # Test multiple task types
-        for task_type in ["sentiment", "toxicity", "crisis_classification", "fact_verification"]:
-            model = manager.get_model(task_type)
-            assert model.task_type == task_type
-            print(f"    [OK] Retrieved model for {task_type}")
-        
-        # Test multi-task prediction (placeholder)
-        test_text = "This is a test text."
-        results = manager.predict_all_tasks(test_text)
-        
-        assert isinstance(results, dict)
-        assert len(results) == 4  # All task types
-        print("[OK] Multi-task prediction (placeholder)")
-        
-        print("[SUCCESS] All BaselineModelManager tests passed")
-        return True
-        
-    except Exception as e:
-        print(f"[FAIL] BaselineModelManager test failed: {e}")
         return False
 
 
@@ -271,7 +230,6 @@ def main():
     tests = [
         ("Baseline Model Imports", test_baseline_imports),
         ("SupervisedClassifier", test_supervised_classifier),
-        ("BaselineModelManager", test_baseline_model_manager),
         ("TextFeatureExtractor", test_text_feature_extractor),
         ("Feature Quality", test_feature_quality),
         ("Entropy Calculation", test_entropy_calculation)

@@ -29,11 +29,37 @@ DATASETS = {
         "classes": ["non-toxic", "toxic"],
         "split_ratios": {"train": 0.7, "dev": 0.15, "test": 0.15}
     },
-    "crisisbench": {
-        "name": "CrisisBench",
-        "task": "crisis_classification",
-        "classes": ["not_crisis", "crisis"],
+    # CrisisBench English subsets (loaded from Hugging Face: QCRI/CrisisBench-english)
+    # Note: The exact class names are taken from the dataset features at runtime.
+    "crisisbench_humanitarian": {
+        "name": "CrisisBench (Humanitarian)",
+        "task": "crisis_humanitarian",
+        "classes": [
+            "infrastructure_and_utilities_damage",
+            "not_humanitarian",
+            "injured_or_dead_people",
+            "sympathy_and_support",
+            "donation_and_volunteering",
+            "response_efforts",
+            "caution_and_advice",
+            "requests_or_needs",
+            "affected_individual",
+            "displaced_and_evacuations",
+            "missing_and_found_people"
+        ],
         "split_ratios": {"train": 0.7, "dev": 0.15, "test": 0.15}
+    },
+    "crisisbench_informativeness": {
+        "name": "CrisisBench (Informativeness)",
+        "task": "crisis_informativeness",
+        "classes": ["informative", "not_informative"],
+        "split_ratios": {"train": 0.7, "dev": 0.15, "test": 0.15}
+    },
+    "fever": {
+        "name": "FEVER Fact Verification",
+        "task": "fact_verification",
+        "classes": ["REFUTES", "NOT ENOUGH INFO", "SUPPORTS"],
+        "split_ratios": None  # Pre-split dataset
     }
 }
 
