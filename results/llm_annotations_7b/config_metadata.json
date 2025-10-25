@@ -1,0 +1,26 @@
+{
+  "model_name": "models/Qwen2.5-7B-Instruct",
+  "model_size": "7B",
+  "model_type": "Qwen2.5-7B-Instruct",
+  "seed": 42,
+  "batch_size": 32,
+  "do_sample": true,
+  "max_tokens": 24,
+  "repetition_penalty": 1.05,
+  "test_mode": false,
+  "test_samples": "full",
+  "datasets": [
+    "jigsaw"
+  ],
+  "resume": false,
+  "checkpoint_interval": 100,
+  "annotation_storage": {
+    "save_full_text": false,
+    "text_preview_length": 100,
+    "save_text_preview_for_hard_cases": true,
+    "note": "Full text not saved by default (use row_id to retrieve from dataset). Hard cases include text_preview for manual review."
+  },
+  "temperature": 0.1,
+  "top_p": 0.7,
+  "top_k": 10
+}

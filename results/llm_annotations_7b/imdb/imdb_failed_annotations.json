@@ -1,0 +1,1269 @@
+[
+  {
+    "row_id": 7211,
+    "text_hash": "4b36382908613b1a",
+    "text_len": 649,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7228,
+    "text_hash": "c68fbcc98c59fa56",
+    "text_len": 688,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7234,
+    "text_hash": "c7309f2779b3e8b6",
+    "text_len": 1682,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7264,
+    "text_hash": "611299623f0f3ae7",
+    "text_len": 1182,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7278,
+    "text_hash": "e7ff29e33ba6ee4d",
+    "text_len": 733,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7287,
+    "text_hash": "ab8e8192fd05402a",
+    "text_len": 1724,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7316,
+    "text_hash": "238fef9650e3c557",
+    "text_len": 3822,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7336,
+    "text_hash": "16c25c1b878764ae",
+    "text_len": 942,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 7423,
+    "text_hash": "c8d49d77d0b107c3",
+    "text_len": 994,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7456,
+    "text_hash": "540cdb42dbfd40ac",
+    "text_len": 686,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7479,
+    "text_hash": "37aa38c3fe50a71f",
+    "text_len": 1929,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7494,
+    "text_hash": "82ee64077a3b85e7",
+    "text_len": 1116,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7511,
+    "text_hash": "031d0b7c7a564a4f",
+    "text_len": 5797,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7516,
+    "text_hash": "14cbe66583ccf9cb",
+    "text_len": 2615,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7531,
+    "text_hash": "69d6b187506ac5e8",
+    "text_len": 2252,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 7532,
+    "text_hash": "cf3e40405c49201b",
+    "text_len": 743,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7563,
+    "text_hash": "fdaabc8626eeba14",
+    "text_len": 451,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7645,
+    "text_hash": "12fba45f221697a8",
+    "text_len": 1975,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7694,
+    "text_hash": "fb1ce57cfb577147",
+    "text_len": 2845,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7699,
+    "text_hash": "6e4b5fc449dce1da",
+    "text_len": 3256,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7715,
+    "text_hash": "c1a17b539eb20658",
+    "text_len": 808,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7722,
+    "text_hash": "76dc3f07199c9595",
+    "text_len": 203,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7772,
+    "text_hash": "a3f9e0035ce47d5f",
+    "text_len": 702,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7802,
+    "text_hash": "cf318ca4973e98f8",
+    "text_len": 2608,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7846,
+    "text_hash": "bb193884e6f90499",
+    "text_len": 840,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7868,
+    "text_hash": "aa294f4f5e8ef8da",
+    "text_len": 1132,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7871,
+    "text_hash": "5e6e7f15341ff8fb",
+    "text_len": 2674,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7904,
+    "text_hash": "c64eb3834fad378f",
+    "text_len": 346,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7924,
+    "text_hash": "3f684bce06c78d7d",
+    "text_len": 1456,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7938,
+    "text_hash": "889abe0c12748966",
+    "text_len": 365,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7942,
+    "text_hash": "5abf1c85318da78e",
+    "text_len": 1433,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 7954,
+    "text_hash": "d821c202c38b82bb",
+    "text_len": 458,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8001,
+    "text_hash": "e058d76dcbbd7178",
+    "text_len": 2030,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8017,
+    "text_hash": "25210df08cbbd80e",
+    "text_len": 713,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8024,
+    "text_hash": "5b181718f760a41f",
+    "text_len": 1120,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8093,
+    "text_hash": "f0e4188cfc586fd9",
+    "text_len": 739,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8102,
+    "text_hash": "4c18d4c898717800",
+    "text_len": 985,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8123,
+    "text_hash": "eded4a8bda276779",
+    "text_len": 1093,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8129,
+    "text_hash": "09435e8522083129",
+    "text_len": 2017,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8131,
+    "text_hash": "2c652b587cbd68f6",
+    "text_len": 5185,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8211,
+    "text_hash": "30da76e9d4911b19",
+    "text_len": 1116,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8301,
+    "text_hash": "f59313de39cb589e",
+    "text_len": 390,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8339,
+    "text_hash": "ad9b47d1d5720873",
+    "text_len": 658,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8351,
+    "text_hash": "b28a5f12156c5754",
+    "text_len": 822,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8401,
+    "text_hash": "4927033774bbe631",
+    "text_len": 638,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8521,
+    "text_hash": "d67510d761e4fb5f",
+    "text_len": 3472,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 8555,
+    "text_hash": "56a9fc899f865c9c",
+    "text_len": 482,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8562,
+    "text_hash": "38a850dd84228138",
+    "text_len": 1074,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8652,
+    "text_hash": "3c8851f88005bc72",
+    "text_len": 1092,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 8680,
+    "text_hash": "5c75f426463989e7",
+    "text_len": 1981,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8740,
+    "text_hash": "4cba9d35d649bbda",
+    "text_len": 856,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8745,
+    "text_hash": "3e753203a6be766c",
+    "text_len": 885,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8771,
+    "text_hash": "79fa1c565c4a40fd",
+    "text_len": 517,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8787,
+    "text_hash": "5da7d8f36f149312",
+    "text_len": 4509,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8824,
+    "text_hash": "03768d54f1a19406",
+    "text_len": 1488,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8841,
+    "text_hash": "c67d81e05021fe2e",
+    "text_len": 3080,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8847,
+    "text_hash": "eaaaa4ee4612a847",
+    "text_len": 1159,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8965,
+    "text_hash": "4441d948fb3f950f",
+    "text_len": 5128,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 8986,
+    "text_hash": "a65f0ad8e1936430",
+    "text_len": 3246,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9015,
+    "text_hash": "4f9350ba2c0ff6b4",
+    "text_len": 977,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9021,
+    "text_hash": "7c6bcee34a37e5bd",
+    "text_len": 1810,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9031,
+    "text_hash": "519c2efeee7da95e",
+    "text_len": 3891,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9034,
+    "text_hash": "271328a28a3144b9",
+    "text_len": 2428,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 9049,
+    "text_hash": "d4f58bfd51d6e6a6",
+    "text_len": 1032,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9052,
+    "text_hash": "e1760de4dab16955",
+    "text_len": 628,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9112,
+    "text_hash": "5c04a2fcbbc8da6b",
+    "text_len": 1055,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9245,
+    "text_hash": "30ce481f499c7aa8",
+    "text_len": 1475,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9247,
+    "text_hash": "2af5739455ffaa95",
+    "text_len": 962,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9248,
+    "text_hash": "bea13887f428aa34",
+    "text_len": 1331,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9268,
+    "text_hash": "e25ad4a7cc62f7e3",
+    "text_len": 1441,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9304,
+    "text_hash": "fe4186f23a0b9228",
+    "text_len": 647,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9325,
+    "text_hash": "51a95a2f3df24f07",
+    "text_len": 2085,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9389,
+    "text_hash": "d920ecf3bb3713b8",
+    "text_len": 899,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9426,
+    "text_hash": "a91e486e4a8b6945",
+    "text_len": 892,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9430,
+    "text_hash": "0a256a01eb77343e",
+    "text_len": 3545,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9444,
+    "text_hash": "45d39ec6c26a82ab",
+    "text_len": 1038,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9470,
+    "text_hash": "5dad541a57c793e1",
+    "text_len": 742,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9489,
+    "text_hash": "36121dc578cb8711",
+    "text_len": 3144,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9494,
+    "text_hash": "cfa12e8ebd54fb4e",
+    "text_len": 727,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9637,
+    "text_hash": "a43e9ceacbc15312",
+    "text_len": 1138,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9643,
+    "text_hash": "8d87b702944bdf78",
+    "text_len": 1540,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9652,
+    "text_hash": "81ebc5255c8d148b",
+    "text_len": 986,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9665,
+    "text_hash": "786e45cd19b5bebb",
+    "text_len": 2527,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9699,
+    "text_hash": "ad111a2c56bee98d",
+    "text_len": 873,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9716,
+    "text_hash": "93b2ff802ceb9912",
+    "text_len": 1386,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9785,
+    "text_hash": "5221bfccc623edc1",
+    "text_len": 5126,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9870,
+    "text_hash": "c9b5fbe9799b5792",
+    "text_len": 1422,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9899,
+    "text_hash": "ec5c3d69bd94cc15",
+    "text_len": 894,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9914,
+    "text_hash": "1d8591919ce1671b",
+    "text_len": 734,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 9951,
+    "text_hash": "18da1b17b473e9ac",
+    "text_len": 1633,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 9953,
+    "text_hash": "b8ef625b3580f22b",
+    "text_len": 686,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10027,
+    "text_hash": "d03d9191e3eb1eed",
+    "text_len": 1209,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10056,
+    "text_hash": "7ee80218a8fafd77",
+    "text_len": 1720,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 10157,
+    "text_hash": "6457698274b6b26f",
+    "text_len": 607,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10210,
+    "text_hash": "c1ea543520b8c038",
+    "text_len": 2630,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 10214,
+    "text_hash": "dfb8c742f8dddfe1",
+    "text_len": 872,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10218,
+    "text_hash": "4975c4e3e99f79fc",
+    "text_len": 3112,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10256,
+    "text_hash": "ae66a54a19bd2520",
+    "text_len": 1107,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10320,
+    "text_hash": "d7ec643b5ea6790f",
+    "text_len": 1585,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10336,
+    "text_hash": "4401c87d9664e0d1",
+    "text_len": 684,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10370,
+    "text_hash": "29fa9171b0918a59",
+    "text_len": 5579,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10398,
+    "text_hash": "3cf6aac6a6088792",
+    "text_len": 3834,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10410,
+    "text_hash": "8cb4f6b633c6044d",
+    "text_len": 416,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10438,
+    "text_hash": "05e5c55483f30580",
+    "text_len": 755,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10439,
+    "text_hash": "5c2f232d1bdcd997",
+    "text_len": 1318,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10466,
+    "text_hash": "56708def0233d811",
+    "text_len": 1996,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10488,
+    "text_hash": "60a522b7de4b6fdf",
+    "text_len": 394,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10506,
+    "text_hash": "ff0ec993cd252cf8",
+    "text_len": 1448,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10561,
+    "text_hash": "cdc01ea783c3c428",
+    "text_len": 965,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10707,
+    "text_hash": "be5e1b987bc2faa1",
+    "text_len": 2086,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10734,
+    "text_hash": "ebe230e8b72c3903",
+    "text_len": 658,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10759,
+    "text_hash": "a95b30e3003a1040",
+    "text_len": 1408,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10761,
+    "text_hash": "af2ad3f132c5df7b",
+    "text_len": 1927,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10772,
+    "text_hash": "8ecd6186a9a62815",
+    "text_len": 1811,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10811,
+    "text_hash": "be8b0bcb068d3920",
+    "text_len": 1651,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 10818,
+    "text_hash": "d141a40a0ddbcb53",
+    "text_len": 789,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10833,
+    "text_hash": "7baa121d0f12486a",
+    "text_len": 3529,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10837,
+    "text_hash": "f72f35c76c39e84a",
+    "text_len": 805,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10850,
+    "text_hash": "91febcdc63c36511",
+    "text_len": 1302,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10855,
+    "text_hash": "1359595eb5ced473",
+    "text_len": 1107,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10872,
+    "text_hash": "63bb29b67218e7fc",
+    "text_len": 875,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10874,
+    "text_hash": "9f3521f541e2d6fa",
+    "text_len": 935,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10899,
+    "text_hash": "e02425165aea6918",
+    "text_len": 1798,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10935,
+    "text_hash": "761cc6a5b9e3ba19",
+    "text_len": 1142,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10965,
+    "text_hash": "8af4f665cc42ddf4",
+    "text_len": 730,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 10986,
+    "text_hash": "d3667ebcde421b44",
+    "text_len": 1758,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 10993,
+    "text_hash": "b8cd12ae295fc0d5",
+    "text_len": 2281,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 11008,
+    "text_hash": "61237ff04630d659",
+    "text_len": 638,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11011,
+    "text_hash": "081287c5af4ffa06",
+    "text_len": 2083,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11015,
+    "text_hash": "154fc2fc5361b9e8",
+    "text_len": 2431,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11084,
+    "text_hash": "388e19b8502c7453",
+    "text_len": 884,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11085,
+    "text_hash": "efd4cf9295c2acbe",
+    "text_len": 1713,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11105,
+    "text_hash": "54d70ee0cf8a2e38",
+    "text_len": 1092,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11154,
+    "text_hash": "ad67b85fbbc4dd15",
+    "text_len": 690,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 11183,
+    "text_hash": "e3dcc82d4773e8cd",
+    "text_len": 538,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11253,
+    "text_hash": "79de55831d60cc2e",
+    "text_len": 846,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11267,
+    "text_hash": "2a8f4575678ec2f7",
+    "text_len": 613,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11270,
+    "text_hash": "6836a22dd5c14a8a",
+    "text_len": 4637,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 11275,
+    "text_hash": "f079c66f58531494",
+    "text_len": 1922,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11297,
+    "text_hash": "4bccf4e5a9a498f7",
+    "text_len": 870,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11302,
+    "text_hash": "0de514f4485806a2",
+    "text_len": 5809,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11326,
+    "text_hash": "53666ba180b04bf7",
+    "text_len": 1358,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11350,
+    "text_hash": "c393652fb0924c55",
+    "text_len": 1921,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11376,
+    "text_hash": "de3316432485c718",
+    "text_len": 1918,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11401,
+    "text_hash": "fed11386b95350dd",
+    "text_len": 3751,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11420,
+    "text_hash": "8702244e55341b56",
+    "text_len": 641,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 11448,
+    "text_hash": "a44df6a062becbd5",
+    "text_len": 1113,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11533,
+    "text_hash": "580b568f5704e9f7",
+    "text_len": 914,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11534,
+    "text_hash": "39fc5eb0b7b0ee7e",
+    "text_len": 1953,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11668,
+    "text_hash": "db30cf34402f7d5a",
+    "text_len": 606,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11685,
+    "text_hash": "bf36b3cc51d0cf43",
+    "text_len": 802,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11692,
+    "text_hash": "29134422d6c11685",
+    "text_len": 747,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11705,
+    "text_hash": "baff1c759800eb85",
+    "text_len": 1059,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11792,
+    "text_hash": "126804bb19bce801",
+    "text_len": 1820,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11807,
+    "text_hash": "8e1a462b8036211f",
+    "text_len": 1631,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 11818,
+    "text_hash": "06cc005008ef4bab",
+    "text_len": 1175,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11835,
+    "text_hash": "eac2f5f4837b7126",
+    "text_len": 416,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11837,
+    "text_hash": "ac90190e06e3176d",
+    "text_len": 1185,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11878,
+    "text_hash": "8e9adaf84548999b",
+    "text_len": 1512,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11885,
+    "text_hash": "5c1130b3663d6a4d",
+    "text_len": 4160,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11936,
+    "text_hash": "5874e8e6c8ddbf57",
+    "text_len": 1020,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11944,
+    "text_hash": "5e4a0a53fa44bb2f",
+    "text_len": 1010,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 11971,
+    "text_hash": "1d979f948cc32f8d",
+    "text_len": 2837,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12107,
+    "text_hash": "ad926b077af584d6",
+    "text_len": 1921,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12110,
+    "text_hash": "4c8f528374c22402",
+    "text_len": 728,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12125,
+    "text_hash": "9a3a096ae5219539",
+    "text_len": 3419,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12135,
+    "text_hash": "a5f81e2d8e1d67b0",
+    "text_len": 674,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12136,
+    "text_hash": "35c9ec822bf6e0d2",
+    "text_len": 698,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12147,
+    "text_hash": "84d9a16b89b40165",
+    "text_len": 1514,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 12168,
+    "text_hash": "bfff788b16785c95",
+    "text_len": 842,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12227,
+    "text_hash": "ec5365cc3835272c",
+    "text_len": 2073,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12246,
+    "text_hash": "72e49693782ca129",
+    "text_len": 4719,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12270,
+    "text_hash": "f038ed3bd52b2e90",
+    "text_len": 1081,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12312,
+    "text_hash": "8b1f6a4812aabe3a",
+    "text_len": 1227,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12314,
+    "text_hash": "a63aa01813dcc9eb",
+    "text_len": 4175,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12324,
+    "text_hash": "fd1a121a63c7fbe3",
+    "text_len": 1101,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12376,
+    "text_hash": "d1b1bac04c14adb0",
+    "text_len": 1859,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"medium\"}"
+  },
+  {
+    "row_id": 12400,
+    "text_hash": "f8e8c3fa8ec5c5d0",
+    "text_len": 1025,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12429,
+    "text_hash": "d74f113dea300fa3",
+    "text_len": 1843,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12432,
+    "text_hash": "0a112ae8dce26a4e",
+    "text_len": 290,
+    "error": "Invalid label 'mixed'",
+    "raw_output": "{\"label\": \"mixed\", \"confidence\": \"low\"}"
+  },
+  {
+    "row_id": 12458,
+    "text_hash": "e4670297f3e4df2d",
+    "text_len": 852,
+    "error": "Invalid label 'neutral'",
+    "raw_output": "{\"label\": \"neutral\", \"confidence\": \"low\"}"
+  }
+]

@@ -4,6 +4,9 @@ datasets
 scikit-learn
 numpy
 pandas
+matplotlib
+seaborn
+jsonschema
 requests
 tqdm
 huggingface_hub
