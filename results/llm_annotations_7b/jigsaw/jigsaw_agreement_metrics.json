@@ -1,0 +1,75 @@
+{
+  "dataset": "jigsaw",
+  "num_samples": 9900,
+  "num_valid": 9900,
+  "accuracy": 0.7684848484848484,
+  "precision": 0.21056691091399923,
+  "recall": 0.6902654867256637,
+  "f1_score": 0.32269503546099293,
+  "cohen_kappa": 0.22819027306406914,
+  "agreement_rate": 0.7684848484848484,
+  "average_confidence": 0.8355454545454547,
+  "classification_report": {
+    "non-toxic": {
+      "precision": 0.9664705077323115,
+      "recall": 0.7752771983752332,
+      "f1-score": 0.8603801169590644,
+      "support": 9109.0
+    },
+    "toxic": {
+      "precision": 0.21056691091399923,
+      "recall": 0.6902654867256637,
+      "f1-score": 0.32269503546099293,
+      "support": 791.0
+    },
+    "accuracy": 0.7684848484848484,
+    "macro avg": {
+      "precision": 0.5885187093231553,
+      "recall": 0.7327713425504485,
+      "f1-score": 0.5915375762100287,
+      "support": 9900.0
+    },
+    "weighted avg": {
+      "precision": 0.9060745738855149,
+      "recall": 0.7684848484848484,
+      "f1-score": 0.8174196220636124,
+      "support": 9900.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      7062,
+      2047
+    ],
+    [
+      245,
+      546
+    ]
+  ],
+  "config": {
+    "model_name": "D:/1684Proj/models/Qwen2.5-7B-Instruct",
+    "model_size": "7B",
+    "model_type": "Qwen2.5-7B-Instruct",
+    "seed": 42,
+    "batch_size": 32,
+    "do_sample": true,
+    "max_tokens": 24,
+    "repetition_penalty": 1.05,
+    "test_mode": false,
+    "test_samples": "full",
+    "datasets": [
+      "jigsaw"
+    ],
+    "resume": false,
+    "checkpoint_interval": 100,
+    "annotation_storage": {
+      "save_full_text": false,
+      "text_preview_length": 100,
+      "save_text_preview_for_hard_cases": true,
+      "note": "Full text not saved by default (use row_id to retrieve from dataset). Hard cases include text_preview for manual review."
+    },
+    "temperature": 0.1,
+    "top_p": 0.7,
+    "top_k": 10
+  }
+}

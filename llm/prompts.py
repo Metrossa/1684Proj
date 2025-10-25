@@ -18,20 +18,18 @@ class TaskType(Enum):
 
 
 class PromptTemplate:
-    """Base class for prompt templates."""
+    """Base class for prompt templates (zero-shot with strict constraints)."""
     
-    def __init__(self, task_type: TaskType, system_prompt: str, examples: List[Dict[str, Any]]):
+    def __init__(self, task_type: TaskType, system_prompt: str):
         """
         Initialize prompt template.
         
         Args:
             task_type: Type of annotation task
-            system_prompt: System instruction for the LLM
-            examples: Few-shot examples for the task
+            system_prompt: System instruction for the LLM (zero-shot)
         """
         self.task_type = task_type
         self.system_prompt = system_prompt
-        self.examples = examples
     
     def format_prompt(self, text: str) -> str:
         """
@@ -42,68 +40,86 @@ class PromptTemplate:
             
         Returns:
             Formatted prompt string
-            
-        TODO: Implement prompt formatting with examples and JSON instructions
         """
-        # TODO: Implement prompt formatting
-        # 1. Add system prompt
-        # 2. Add few-shot examples
-        # 3. Add JSON output format instructions
-        # 4. Add the input text to annotate
-        # 5. Ensure deterministic formatting
-        return f"TODO: Format prompt for {self.task_type.value} task with text: {text[:50]}..."
+        # Build prompt with system instruction and input
+        prompt_parts = [self.system_prompt]
+        prompt_parts.append("\nNow classify this text:")
+        prompt_parts.append(f'Text: "{text}"')
+        prompt_parts.append("\nOutput (JSON only, no other text):")
+        return "\n".join(prompt_parts)
+    
+    def format_messages(self, text: str) -> List[Dict[str, str]]:
+        """
+        Format messages for chat template (recommended for Qwen).
+        
+        Args:
+            text: Input text to annotate
+            
+        Returns:
+            List of message dicts with role and content
+        """
+        return [
+            {"role": "system", "content": self.system_prompt},
+            {"role": "user", "content": f"Text: {text}"}
+        ]
 
 
-def get_prompt_template(task_type: TaskType) -> PromptTemplate:
+def get_prompt_template(task_type: TaskType, require_rationale: bool = True) -> PromptTemplate:
     """
-    Get prompt template for a specific task type.
+    Get prompt template for a specific task type (zero-shot with strict constraints).
     
     Args:
         task_type: Type of annotation task
+        require_rationale: If True, require rationale; if False, only label+confidence
         
     Returns:
         PromptTemplate instance for the task
-        
-    TODO: Implement task-specific prompt templates
     """
-    # TODO: Implement task-specific templates
-    # 1. Sentiment: positive/negative classification with confidence
-    # 2. Toxicity: toxic/non-toxic classification with confidence  
-    # 3. Crisis: crisis/not_crisis classification with confidence
-    # 4. Fact verification: supports/refutes classification with confidence
+    # Common output requirements (reduce repetition)
+    if require_rationale:
+        _OUTPUT_RULES = """
+Output format:
+<json>{"label": "...", "confidence": "low/medium/high", "rationale": "10-200 chars from text"}</json>
+
+Requirements:
+- "confidence" must be: low, medium, or high
+- "rationale" must cite evidence from input text (10-200 characters)
+- If uncertain, use "confidence": "low"
+- Output ONLY the JSON, nothing else"""
+    else:
+        _OUTPUT_RULES = """
+Output format:
+<json>{"label": "...", "confidence": "low/medium/high"}</json>
+
+Requirements:
+- "confidence" must be: low, medium, or high
+- If uncertain, use "confidence": "low"
+- Output ONLY the JSON, nothing else"""
     
     if task_type == TaskType.SENTIMENT:
-        # TODO: Create sentiment-specific prompt
-        system_prompt = "TODO: Sentiment analysis system prompt"
-        examples = [
-            # TODO: Add few-shot examples for sentiment
-            {"text": "This movie was amazing!", "label": "positive", "confidence": "high", "rationale": "Clear positive sentiment"}
-        ]
+        system_prompt = f"""Task: Classify the sentiment of text as positive or negative.
+
+Label must be one of: ["positive", "negative"]{_OUTPUT_RULES}"""
+    
     elif task_type == TaskType.TOXICITY:
-        # TODO: Create toxicity-specific prompt
-        system_prompt = "TODO: Toxicity detection system prompt"
-        examples = [
-            # TODO: Add few-shot examples for toxicity
-            {"text": "You are an idiot!", "label": "toxic", "confidence": "high", "rationale": "Contains personal insult"}
-        ]
+        system_prompt = f"""Task: Classify whether text is toxic or non-toxic.
+
+Label must be one of: ["toxic", "non-toxic"]{_OUTPUT_RULES}"""
+    
     elif task_type == TaskType.CRISIS:
-        # TODO: Create crisis-specific prompt
-        system_prompt = "TODO: Crisis detection system prompt"
-        examples = [
-            # TODO: Add few-shot examples for crisis
-            {"text": "Earthquake hit our city!", "label": "crisis", "confidence": "high", "rationale": "Reports natural disaster"}
-        ]
+        system_prompt = f"""Task: Classify whether text reports a crisis or emergency situation.
+
+Label must be one of: ["crisis", "not_crisis"]{_OUTPUT_RULES}"""
+    
     elif task_type == TaskType.FACT_VERIFICATION:
-        # TODO: Create fact verification prompt
-        system_prompt = "TODO: Fact verification system prompt"
-        examples = [
-            # TODO: Add few-shot examples for fact verification
-            {"text": "The sky is blue", "label": "supports", "confidence": "high", "rationale": "Commonly known fact"}
-        ]
+        system_prompt = f"""Task: Verify whether a claim is supported, refuted, or has not enough information.
+
+Label must be one of: ["supports", "refutes", "not_enough_info"]{_OUTPUT_RULES}"""
+    
     else:
         raise ValueError(f"Unsupported task type: {task_type}")
     
-    return PromptTemplate(task_type, system_prompt, examples)
+    return PromptTemplate(task_type, system_prompt)
 
 
 def get_json_schema(task_type: TaskType) -> Dict[str, Any]:
@@ -115,13 +131,7 @@ def get_json_schema(task_type: TaskType) -> Dict[str, Any]:
         
     Returns:
         JSON schema for validating LLM responses
-        
-    TODO: Implement JSON schema validation
     """
-    # TODO: Implement JSON schema for each task type
-    # Required fields: label, confidence, rationale
-    # Optional fields: additional_metadata
-    
     base_schema = {
         "type": "object",
         "properties": {
@@ -132,7 +142,7 @@ def get_json_schema(task_type: TaskType) -> Dict[str, Any]:
         "required": ["label", "confidence", "rationale"]
     }
     
-    # TODO: Add task-specific label constraints
+    # Add task-specific label constraints
     if task_type == TaskType.SENTIMENT:
         base_schema["properties"]["label"]["enum"] = ["positive", "negative"]
     elif task_type == TaskType.TOXICITY:
@@ -140,7 +150,7 @@ def get_json_schema(task_type: TaskType) -> Dict[str, Any]:
     elif task_type == TaskType.CRISIS:
         base_schema["properties"]["label"]["enum"] = ["crisis", "not_crisis"]
     elif task_type == TaskType.FACT_VERIFICATION:
-        base_schema["properties"]["label"]["enum"] = ["supports", "refutes"]
+        base_schema["properties"]["label"]["enum"] = ["supports", "refutes", "not_enough_info"]
     
     return base_schema
 
@@ -151,11 +161,7 @@ def get_verbal_confidence_mapping() -> Dict[str, float]:
     
     Returns:
         Dictionary mapping verbal confidence to numeric values
-        
-    TODO: Implement confidence score mapping
     """
-    # TODO: Implement verbal to numeric confidence mapping
-    # This will be used by the trust scorer for feature extraction
     return {
         "low": 0.3,
         "medium": 0.6, 

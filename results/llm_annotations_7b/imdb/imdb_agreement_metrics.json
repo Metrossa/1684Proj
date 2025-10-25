@@ -1,0 +1,75 @@
+{
+  "dataset": "imdb",
+  "num_samples": 12319,
+  "num_valid": 12319,
+  "accuracy": 0.9573829044565305,
+  "precision": 0.9625393668158462,
+  "recall": 0.9510317720275139,
+  "f1_score": 0.9567509679545267,
+  "cohen_kappa": 0.9147506018723042,
+  "agreement_rate": 0.9573829044565305,
+  "average_confidence": 0.8729198798603786,
+  "classification_report": {
+    "negative": {
+      "precision": 0.9524339802736239,
+      "recall": 0.9636246579752132,
+      "f1-score": 0.9579966397311785,
+      "support": 6213.0
+    },
+    "positive": {
+      "precision": 0.9625393668158462,
+      "recall": 0.9510317720275139,
+      "f1-score": 0.9567509679545267,
+      "support": 6106.0
+    },
+    "accuracy": 0.9573829044565305,
+    "macro avg": {
+      "precision": 0.957486673544735,
+      "recall": 0.9573282150013636,
+      "f1-score": 0.9573738038428526,
+      "support": 12319.0
+    },
+    "weighted avg": {
+      "precision": 0.95744278701336,
+      "recall": 0.9573829044565305,
+      "f1-score": 0.9573792136520944,
+      "support": 12319.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      5987,
+      226
+    ],
+    [
+      299,
+      5807
+    ]
+  ],
+  "config": {
+    "model_name": "D:/1684Proj/models/Qwen2.5-7B-Instruct",
+    "model_size": "7B",
+    "model_type": "Qwen2.5-7B-Instruct",
+    "seed": 42,
+    "batch_size": 32,
+    "do_sample": true,
+    "max_tokens": 12,
+    "repetition_penalty": 1.05,
+    "test_mode": false,
+    "test_samples": "full",
+    "datasets": [
+      "imdb"
+    ],
+    "resume": true,
+    "checkpoint_interval": 100,
+    "annotation_storage": {
+      "save_full_text": false,
+      "text_preview_length": 100,
+      "save_text_preview_for_hard_cases": true,
+      "note": "Full text not saved by default (use row_id to retrieve from dataset). Hard cases include text_preview for manual review."
+    },
+    "temperature": 0.1,
+    "top_p": 0.7,
+    "top_k": 10
+  }
+}

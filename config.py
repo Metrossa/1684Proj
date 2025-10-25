@@ -4,6 +4,9 @@ Configuration file for LLM annotation reliability analysis project.
 import os
 from pathlib import Path
 
+# Fix OpenMP library conflict (required for PyTorch with conda)
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+
 # Project paths
 PROJECT_ROOT = Path(__file__).parent
 DATA_DIR = PROJECT_ROOT / "data"
@@ -74,21 +77,51 @@ BERT_MODELS = {
 
 # LLM configurations
 LLM_MODELS = {
-    "qwen-7b": "Qwen/Qwen-7B",
-    "qwen-14b": "Qwen/Qwen-14B",
-    "qwen-32b": "Qwen/Qwen-32B",
-    "qwen-72b": "Qwen/Qwen-72B"
+    "qwen-14b": "Qwen/Qwen3-14B",
+    "qwen-7b": "models/Qwen2.5-7B-Instruct",
+    "qwen-7b-awq": "models/Qwen2.5-7B-Instruct-AWQ"
 }
 
-# LLM settings
-LLM_CONFIG = {
+# LLM configurations
+LLM_CONFIG_7B_TRANSFORMERS = {
+    "model_name": "qwen-7b",
     "temperature": 0.1,
-    "max_tokens": 100,
-    "top_p": 0.9,
-    "model_name": "qwen-7b"  # Default Qwen model
+    "top_p": 0.7,
+    "top_k": 10,
+    "repetition_penalty": 1.05,
+    "max_tokens": 24,
+    "do_sample": True,
+    "seed": 42
 }
 
-# Evaluation settings (for dataset splitting)
+LLM_CONFIG_7B_VLLM = {
+    "model_name": "qwen-7b-awq",
+    "temperature": 0.1,
+    "do_sample": False,
+    "max_tokens": 12,
+    "repetition_penalty": 1.0,
+    "seed": 42
+}
+
+LLM_BATCH_SIZE_7B = 32
+LLM_CONFIG_7B = LLM_CONFIG_7B_TRANSFORMERS
+LLM_CONFIG = LLM_CONFIG_7B_TRANSFORMERS
+
+ANNOTATION_CONFIG = {
+    "save_full_text": False,
+    "text_preview_length": 100,
+    "save_text_preview_for_hard_cases": True,
+    "rationale_strategy": "selected",
+    "rationale_conditions": {
+        "low_confidence": True,
+        "disagreement": True,
+        "baseline_uncertain": True,
+        "audit_sample_rate": 0.05
+    },
+    "rationale_max_tokens": 48, 
+    "rationale_max_words": 12
+}
+
 EVALUATION = {
     "random_seed": 42
 }
