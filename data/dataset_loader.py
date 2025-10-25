@@ -155,9 +155,75 @@ class IMDBLoader(DatasetLoader):
 class JigsawLoader(DatasetLoader):
     """Jigsaw toxicity classification dataset loader."""
     
+    def _load_from_sampled_data(self) -> Optional[Dict[str, pd.DataFrame]]:
+        """Try to load from stratified sample if available."""
+        # Check for sampled data in results directory
+        results_dir = Path("results/llm_annotations_7b/jigsaw/jigsaw_sample")
+        sample_path = results_dir / "jigsaw_sample10k.csv"
+        
+        if sample_path.exists():
+            try:
+                print(f"Loading Jigsaw from stratified sample: {sample_path}")
+                sample_df = pd.read_csv(sample_path)
+                
+                # Validate required columns
+                if 'text' not in sample_df.columns or 'label' not in sample_df.columns:
+                    print("Warning: Sampled data missing required columns")
+                    return None
+                
+                # Use the entire sample as test set for LLM annotation
+                # Create minimal train/dev splits for compatibility (small samples)
+                n_samples = len(sample_df)
+                
+                # For LLM annotation, we want to use the full 10k sample as test
+                # Create small train/dev splits just for compatibility
+                from sklearn.model_selection import train_test_split
+                
+                # Take a small portion for train/dev, rest goes to test
+                n_train_dev = min(100, n_samples // 100)  # 1% for train+dev
+                
+                if n_train_dev > 0:
+                    # Split: (train+dev) vs test
+                    train_dev_df, test_df = train_test_split(
+                        sample_df,
+                        test_size=n_samples - n_train_dev,
+                        stratify=sample_df['label'],
+                        random_state=42
+                    )
+                    
+                    # Split train_dev into train and dev
+                    train_df, dev_df = train_test_split(
+                        train_dev_df,
+                        test_size=n_train_dev // 2,
+                        stratify=train_dev_df['label'],
+                        random_state=42
+                    )
+                else:
+                    # If sample is too small, use all as test
+                    train_df = sample_df.iloc[:1].copy()  # Minimal train
+                    dev_df = sample_df.iloc[:1].copy()    # Minimal dev  
+                    test_df = sample_df.copy()            # Full test
+                
+                return {
+                    'train': train_df.reset_index(drop=True),
+                    'dev': dev_df.reset_index(drop=True),
+                    'test': test_df.reset_index(drop=True)
+                }
+                
+            except Exception as e:
+                print(f"Error loading sampled data: {e}")
+                return None
+        
+        return None
+    
     def load_data(self) -> Dict[str, pd.DataFrame]:
         """Load Jigsaw dataset from local CSV or HuggingFace (civil_comments)."""
-        # Try loading from local CSV first
+        # Try loading from sampled data first (if exists)
+        sampled_data = self._load_from_sampled_data()
+        if sampled_data is not None:
+            return sampled_data
+            
+        # Try loading from local CSV
         local_data = self._load_from_local_csv()
         if local_data is not None:
             return local_data
