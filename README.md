@@ -3,6 +3,9 @@
 
 Use agreement, disagreement, and calibrated trust scoring to decide when LLM annotations are safe to keep and when humans should intervene.  
 
+**Interactive Dashboard**: [https://one684proj.onrender.com/](https://one684proj.onrender.com/)  
+*Available for research purposes. Text content is not displayed. Not intended for public distribution.*
+
 ---
 
 # Contents
